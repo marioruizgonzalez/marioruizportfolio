@@ -1,7 +1,8 @@
 import streamlit as st
 from multiapp import MultiApp
 from streamlit_option_menu import option_menu
-from apps import home, data, model # import your app modules here
+from apps import home, data, model
+
 
 with st.sidebar:
     selected = option_menu("Mario Ruiz Porfolio", ["Machine Learning Projects", 'Data Mining PL/SQL', 'Resume / CV'], 
