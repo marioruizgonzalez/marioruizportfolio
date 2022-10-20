@@ -16,6 +16,7 @@ if selected == "Machine Learning Projects":
     app.add_app("Projects Home", home.app)
     app.add_app("Projects Data", data.app)
     app.add_app("Projects Model", model.app)
+    app.add_app("titanic", titanic.app)
     app.run()
 if selected == "Data Mining PL/SQL":
     st.title(f"You have selected {selected}")
