@@ -1,14 +1,26 @@
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/Sidebar';
+import Resume from './components/Resume';
+import Home from './components/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="main">
       <Sidebar />
-      <div className="container">
-        <h1 className="title">My React App</h1>
-        <p className="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button className="btn">Explore now</button>
-      </div>
+
+
+      <div >
+      <h1>Marine Mammals</h1>
+      <BrowserRouter>
+      <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/resume" element={<Resume />} />
+      
+    </Routes>
+      </BrowserRouter>
+    </div>
+
     </div>
   )
 }
