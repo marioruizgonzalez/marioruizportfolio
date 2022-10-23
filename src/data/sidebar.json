@@ -1,0 +1,55 @@
+[
+    {
+        "title": "ML Projects",
+        "icon": "bi-gear-fill",
+        "childrens": [
+            {
+                "title": "Own Projects",
+                "icon": "bi bi-bezier2",
+                "path": "/"
+                
+            },
+            {
+                "title": "About",
+                "icon": "bi bi-bezier2",
+                "path": "/about"
+                
+            },
+            {
+                "title": "Contact",
+                "icon": "bi bi-bezier2"
+            }
+        ]
+    },
+    {
+        "title": "PL/SQL Projects",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Login",
+                "icon": "bi bi-body-text",
+                "path": "/login"
+            },
+            {
+                "title": "Register",
+                "icon": "bi bi-body-text",
+                "path": "/register"
+            },
+            {
+                "title": "Forgot Password",
+                "icon": "bi bi-body-text",
+                "path": "/forgot-password"
+            },
+            {
+                "title": "Reset Password",
+                "icon": "bi bi-body-text",
+                "path": "/reset-password"
+            }
+        ]
+    },
+    {
+        "title": "Resume / CV",
+        "icon": "bi-person-fill"
+
+    }
+]
