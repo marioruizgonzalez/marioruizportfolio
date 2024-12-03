@@ -33,6 +33,16 @@ header {
 .header-content h1 {
     font-size: 24px;
     font-weight: normal;
+    
+}
+
+.header-content h1 a {
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: none;
+    font-weight: bold;
+    color: #777;
+    
 }
 
 .header-content nav {
